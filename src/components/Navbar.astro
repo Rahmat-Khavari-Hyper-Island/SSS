@@ -1,0 +1,63 @@
+<header class="navbar">
+  <img src="/logo.png" alt="Organization Logo" class="logo" />
+  <nav aria-label="Main navigation">
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#ourmiss">Our Mission</a></li>
+      <li><a href="#ourpor">Our Programs</a></li>
+      <li><a href="#getinv">Get Involved</a></li>
+      <li><a href="#don">Donation</a></li>
+      <li><a href="#evenew">Event And News</a></li>
+      <li><a href="#con">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Logo styling */
+  .logo {
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+  }
+
+  /* Navigation links list */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+  }
+
+  /* Navigation links styling */
+  .nav-links li {
+    font-size: 16px;
+  }
+
+  /* Anchor tags inside the nav-links */
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  /* Hover effect for anchor tags */
+  .nav-links a:hover {
+    color: orangered;
+  }
+</style>
